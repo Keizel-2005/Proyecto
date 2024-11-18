@@ -58,9 +58,19 @@ section h2 {
 }
 
 footer {
-    background: #333;
+    background: #219ef1;
     color: white;
     text-align: center;
     padding: 10px 20px;
     font-size: 0.9rem;
+}
+
+.card-title{
+    text-align: center;
+    color: white;
+}
+
+.card-text{
+    text-align: center;
+    color: white;
 }
