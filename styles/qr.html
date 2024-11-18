@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="header text-center" style="background-color: blue;">
+    <header class="header text-center" style="background-color: #07a7f1;">
         <br>
         <h1>Informacion del QR</h1>
         <br>
@@ -24,69 +24,45 @@
     <div class="card mx-auto" style="max-width: 1024px;">
         <div class="row g-0">
             <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="...">
+                <img src="../img/Perro2.jpg" class="img-fluid rounded-start" alt="...">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
                     <h5 class="card-title">Cuper</h5>
                     <p class="card-text">Mi nombre es cuper no soy un perro bravo, y me encuentro debidamente vacunado</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    
 
 
-                    <form class="row g-3 needs-validation" novalidate>
-                        <div class="col-md-4 position-relative">
-                            <label for="validationTooltip01" class="form-label">Nombre del Dueño</label>
-                            <input type="text" class="form-control" id="validationTooltip01" value="Christofer" required>
-                            <div class="valid-tooltip">
-                                Looks good!
+                    <form class="row g-3">
+                        <div class="col-md-4">
+                            <label for="nombreDueno" class="form-label">Nombre del Dueño</label>
+                            <input type="text" class="form-control" id="nombreDueno" value="Christofer">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="apellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="apellido" value="Hernández">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="telefono" class="form-label">Teléfono</label>
+                            <div class="input-group">
+                                <span class="input-group-text" id="telefonoPrepend">
+                                <input type="text" class="form-control" id="telefono" aria-describedby="telefonoPrepend" value="84096422">
                             </div>
                         </div>
-                        <div class="col-md-4 position-relative">
-                            <label for="validationTooltip02" class="form-label">Apellido</label>
-                            <input type="text" class="form-control" id="validationTooltip02" value="Hernández" required>
-                            <div class="valid-tooltip">
-                                Looks good!
-                            </div>
+                        <div class="col-md-6">
+                            <label for="ciudad" class="form-label">Ciudad</label>
+                            <input type="text" class="form-control" id="ciudad" value="Cañas Guanacaste">
                         </div>
-                        <div class="col-md-4 position-relative">
-                            <label for="validationTooltipUsername" class="form-label">Telefono</label>
-                            <div class="input-group has-validation">
-                                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-                                <input type="text" class="form-control" id="validationTooltipUsername"
-                                    aria-describedby="validationTooltipUsernamePrepend" required>
-                                <div class="invalid-tooltip">
-                                    Please choose a unique and valid username.
-                                </div>
-                            </div>
+                        <div class="col-md-3">
+                            <label for="correo" class="form-label">Correo</label>
+                            <input type="text" class="form-control" id="correo" value="chrishg2004@gmail.com" style="width: auto; min-width: 20ch;">
                         </div>
-                        <div class="col-md-6 position-relative">
-                            <label for="validationTooltip03" class="form-label">City</label>
-                            <input type="text" class="form-control" id="validationTooltip03" required>
-                            <div class="invalid-tooltip">
-                                Please provide a valid city.
-                            </div>
-                        </div>
-                        <div class="col-md-3 position-relative">
-                            <label for="validationTooltip04" class="form-label">State</label>
-                            <select class="form-select" id="validationTooltip04" required>
-                                <option selected disabled value="">Choose...</option>
-                                <option>...</option>
-                            </select>
-                            <div class="invalid-tooltip">
-                                Please select a valid state.
-                            </div>
-                        </div>
-                        <div class="col-md-3 position-relative">
-                            <label for="validationTooltip05" class="form-label">Zip</label>
-                            <input type="text" class="form-control" id="validationTooltip05" required>
-                            <div class="invalid-tooltip">
-                                Please provide a valid zip.
-                            </div>
-                        </div>
+                        
                         <div class="col-12">
-                            <button class="btn btn-primary" type="submit">Submit form</button>
+                            <button class="btn btn-primary" type="submit">Actualizar Informacion</button>
                         </div>
                     </form>
+                    
 
 
 
