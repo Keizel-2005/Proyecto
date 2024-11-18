@@ -1,25 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pets.css">
-    <title>Mascota</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pets.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Mascota</title>
 </head>
+
 <body>
-    <header>
-        <h1>QRPetCare Seguridad y Cuidado para tu Mascota</h1>
-        <p>Protección y cuidado en un solo clic.</p>
-      </header>
-    
-      <nav>
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="Pets.html">Mascota</a></li>
-          <li><a href="#Vet">Veterinaria</a></li>
-          <li><a href="#Generador">QR</a></li>
-          <li><a href="#login">Iniciar Sesión</a></li>
-        </ul>
-      </nav>
+  <header>
+    <h1>Mascota</h1>
+    <p>Seccion de mascotas registradas.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="#Vet">Veterinaria</a></li>
+      <li><a href="#Generador">QR</a></li>
+    </ul>
+  </nav>
+  <br>
+  <br>
+  <div class="container my-4">
+    <div class="card text-center">
+      <div class="card-header" style="background-color: #07a7f1;">
+        <h5>Simon</h5>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <!-- Columna para la imagen -->
+          <div class="col-md-4">
+            <img src="../img/mascota1.jpeg" class="img-fluid rounded" alt="Imagen de Firulais">
+          </div>
+          <!-- Columna para la información básica -->
+          <div class="col-md-8 d-flex flex-column align-items-start justify-content-center">
+            <h5 class="card-title">Información de la Mascota</h5>
+            <p class="card-text"><strong>Dueño/a:</strong> Jose Arguedas</p>
+            <p class="card-text"><strong>Edad:</strong> 3 años</p>
+            <p class="card-text"><strong>Raza:</strong> Labrador Retriever</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row mt-3">
+          <div class="col-12">
+            <h5 style="color: black;">Historial Médico</h5>
+            <table class="table table-bordered table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Fecha</th>
+                  <th>Descripción</th>
+                  <th>Veterinario</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2024-01-15</td>
+                  <td>Vacuna contra la rabia</td>
+                  <td>Dr. María Pérez</td>
+                </tr>
+                <tr>
+                  <td>2024-03-10</td>
+                  <td>Chequeo general</td>
+                  <td>Dr. Juan Gómez</td>
+                </tr>
+                <tr>
+                  <td>2024-05-20</td>
+                  <td>Desparasitación</td>
+                  <td>Dr. Ana López</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer text-muted">
+        Última actualización: 2024-11-18
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <footer>
+    <p>&copy; 2024 QRPetCare/Veterinaria | Reservados todos los derechos</p>
+  </footer>
 </body>
+
 </html>

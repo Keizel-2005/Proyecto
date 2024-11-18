@@ -45,3 +45,18 @@ nav ul li a {
 nav ul li a:hover {
     color: #76f6ff;
 }
+
+.card-body{
+    background-color: lightcyan;
+}
+
+div h5{
+    color: white;
+}
+footer {
+    background: #219ef1;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+}
