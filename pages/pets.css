@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header {
     background: linear-gradient(135deg, #07a7f1, #1689d6);
     color: white;
@@ -41,36 +46,17 @@ nav ul li a:hover {
     color: #76f6ff;
 }
 
-  .card-img-top {
-    height: 320px;
-    object-fit: cover; 
-  }
-
-  section {
-    background-color: #219ef1;
-    text-align: center;
+.card-body{
+    background-color: lightcyan;
 }
 
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #f8f0f0;
+div h5{
+    color: white;
 }
-
 footer {
     background: #219ef1;
     color: white;
     text-align: center;
     padding: 10px 20px;
     font-size: 0.9rem;
-}
-
-.card-title{
-    text-align: center;
-    color: white;
-}
-
-.card-text{
-    text-align: center;
-    color: white;
 }
